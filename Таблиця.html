@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    .title{
+        font-size: 36px;
+        font-weight: bold;
+    }
+    table{
+        width:1200px;
+    }
+    th{
+        width:200px;
+    }
+    td{
+        width:200px;
+        text-align:center;
+    }
+    .main_row{
+        background-color: #000000;
+        color: #fff;
+    }
+    .first_row{
+        background-color: rgb(180, 172, 172);
+    }
+    button{
+        margin: 50px 500px;
+        display: block;
+        font-size: 26px;
+        border-radius: 10px;
+        background-color: red;
+        width:200px;
+        height: 70px;
+        cursor: pointer;
+        transition: .7s all;
+    }
+    button:hover{
+        width:300px;
+        height: 100px;
+        font-size: 32px;
+    }
+    a{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <table border="1">
+        <tr class="main_row">
+            <th colspan="6" class="title">Версії Windows</th>
+        </tr>
+        <tr class="first_row">
+            <th>Роки</th>
+            <th colspan="5">Версії</th>
+           
+        </tr>
+        <tr>
+            <td>1985-1994</td>
+            <td colspan="5">
+                <ul class="list_num">
+                    <li>Windows 1</li>
+                    <li>Windows 2</li>
+                    <li>Windows 3 </li>
+                    <li>Windows NT 3.1</li>
+                    <li>Windows NT 3.5 Workstation</li>
+                </ul>
+            </td>
+            
+        </tr>
+        <tr>
+            <td>1995-1998</td>
+            <td colspan="5">
+                <ul class="list_ar">
+                    <li>Windows NT 3.5.1</li>
+                    <li>Windows 95</li>
+                    <li>Windows NT 4.0</li>
+                    <li>Windows 98</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>2000-...</td>
+            <td colspan="5">
+                <ul class="list_letters">
+                    <li>Windows Millenium</li>
+                    <li>Windows 2000</li>
+                    <li>Windows XP (NT 5.1)</li>
+                    <li>Windows Vista (NT 6.0)</li>
+                    <li>Windows 7 (NT 6.1)</li>
+                    <li>Windows 8 (NT 6.2)</li>
+                    <li>Windows 8.1 (NT 6.3)</li>
+                    <li>Windows 10 (NT 10)</li>
+                </ul>
+            </td>
+        </tr>
+        
+    </table>
+    <a href="index.html"><button>На головну</button></a>
+
+</body>
+</html>
